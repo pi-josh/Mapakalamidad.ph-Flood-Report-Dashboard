@@ -4,13 +4,14 @@
 1. [Project Overview](#project-overview)
 2. [Problem Statement](#problem-statement)
 3. [Objectives](#objectives)
-4. [Analytical Questions](#analytical-questions)
-5. [Repository Contents](#repository-contents)
-6. [API Usage](#api-usage)
-7. [Dashboard Insights Overview](#dashboard-insights-overview)
-8. [Installation](#installation)
-9. [Contributions](#contributions)
-10. [License](#license)
+4. [Scope and Limitations](#scope-and-limitations)
+5. [Analytical Questions](#analytical-questions)
+6. [Repository Contents](#repository-contents)
+7. [API Usage](#api-usage)
+8. [Dashboard Insights Overview](#dashboard-insights-overview)
+9. [Installation](#installation)
+10. [Contributions](#contributions)
+11. [License](#license)
 
 ---
 
@@ -25,6 +26,14 @@ The main objectives of this project are to:
 - **Evaluate** the role of MapaKalamidad.ph in improving disaster response times.
 - **Analyze** the platform's influence on community preparedness during typhoons.
 - **Examine** how well the platform integrates with **Local Government Unit (LGU)** strategies and whether it aids in better reporting of disaster incidents.
+
+## Scope and Limitations
+
+The analysis focuses on **archival reports** of data collected during the months of **January and February**, specifically in typhoon-affected regions where **MapaKalamidad.ph** was utilized. The evaluation includes responses from LGUs, user feedback, and disaster outcomes within this time frame.
+
+However, certain limitations may affect the analysis:
+- **Time Frame**: The analysis is restricted to the months of **January–February**, which may not provide a comprehensive view of the platform's effectiveness during other typhoon seasons.
+- **Data Availability**: There may be limitations in the availability and consistency of data from LGUs and other local sources, which could impact the overall findings.
 
 ## Analytical Questions
 1. How does MapaKalamidad.ph influence disaster response times?
