@@ -7,11 +7,10 @@
 4. [Analytical Questions](#analytical-questions)
 5. [Repository Contents](#repository-contents)
 6. [API Usage](#api-usage)
-7. [Exploratory Data Analysis Takeaways](#exploratory-data-analysis-takeaways)
-8. [Dashboard Insights Overview](#dashboard-insights-overview)
-9. [Installation](#installation)
-10. [Contributions](#contributions)
-11. [License](#license)
+7. [Dashboard Insights Overview](#dashboard-insights-overview)
+8. [Installation](#installation)
+9. [Contributions](#contributions)
+10. [License](#license)
 
 ---
 
@@ -35,11 +34,11 @@ The main objectives of this project are to:
 5. Does the platform help communities prepare better for disasters?
 
 ## Repository Contents
-- **Jupyter Notebook**: The primary analysis, visualizations, and findings based on disaster response data.
+- **Jupyter Notebook**: The notebook focuses on data wrangling and processing the MapaKalamidad.ph API dataset to prepare it for analysis and visualization.
     - [Notebook.ipynb](./Notebook.ipynb)
   
-- **Kaggle Notebook**: View the full analysis hosted on Kaggle.
-    - [View on Kaggle](link_to_your_kaggle_notebook)
+- **Kaggle Notebook**: View the full data wrangling process hosted on Kaggle.
+    - [View on Kaggle](https://www.kaggle.com/code/joshuamacatunao/mapakalamidad-ph-data-wrangling)
 
 - **Tableau Project**: A dashboard showcasing insights from the data, such as response times and community feedback.
     - [View Tableau Dashboard](link_to_your_tableau_project)
@@ -47,16 +46,13 @@ The main objectives of this project are to:
 ## API Usage
 The project utilizes **MapaKalamidad.ph's API**, which provides disaster-related data in JSON format. The data from the API will be used for real-time analysis, incident reporting, and disaster response evaluations.
 
-## Exploratory Data Analysis Takeaways
-*This section will summarize the key takeaways from the initial exploratory data analysis, providing insights into data distribution, trends, and anomalies.* (To be updated)
-
 ## Dashboard Insights Overview
 *This section will provide an overview of the insights viewers can expect to find in the Tableau dashboard, including key metrics on disaster response times, incident reporting, and community preparedness.* (To be updated)
 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/dashboarding-project.git
+    git clone https://github.com/your-username/Mapakalamidad.ph-Dashboarding-Project.git
     ```
 2. Install dependencies:
     ```bash
