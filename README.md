@@ -36,11 +36,13 @@ However, certain limitations may affect the analysis:
 - **Data Availability**: There may be limitations in the availability and consistency of data from LGUs and other local sources, which could impact the overall findings.
 
 ## Analytical Questions
-1. How does MapaKalamidad.ph influence disaster response times?
-2. How do users perceive the platform’s usefulness during typhoons?
-3. What impact has it had on the number of unreported incidents?
-4. How well is the platform integrated with LGU response strategies?
-5. Does the platform help communities prepare better for disasters?
+
+1. **What are the trends in disaster reports** during the specified time period (January–February) in regions affected by typhoons?
+2. **How frequently are incidents reported** on MapaKalamidad.ph during typhoons, and what types of incidents are most commonly reported?
+3. **What is the geographical distribution** of reports in the available data, and which regions are most impacted by typhoons based on the API data?
+4. **What are the patterns in response times** as indicated by the data in the system?
+5. **How does the number of reports change over time** during the disaster period covered by the dataset?
+
 
 ## Repository Contents
 - **Jupyter Notebook**: The notebook focuses on data wrangling and processing the MapaKalamidad.ph API dataset to prepare it for analysis and visualization.
