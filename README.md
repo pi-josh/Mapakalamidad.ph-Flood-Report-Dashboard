@@ -45,7 +45,7 @@ However, certain limitations may affect the analysis:
 
 ## Repository Contents
 - **Jupyter Notebook**: The notebook focuses on data wrangling and processing the MapaKalamidad.ph API dataset to prepare it for analysis and visualization.
-    - [Notebook.ipynb](./Notebook.ipynb)
+    - [Notebook.ipynb](./mapakalamidad-ph-data-wrangling.ipynb)
   
 - **Kaggle Notebook**: View the full data wrangling process hosted on Kaggle.
     - [View on Kaggle](https://www.kaggle.com/code/joshuamacatunao/mapakalamidad-ph-data-wrangling)
