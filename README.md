@@ -16,10 +16,10 @@
 ---
 
 ## Project Overview
-This simple project focuses on evaluating the patterns and trends in flood reporting on **MapaKalamidad.ph**, a platform designed to assist in **Disaster Risk Reduction Management (DRRM)** in the Philippines. By analyzing flood reports submitted through the platform, we aim to understand the platform's impact on flood preparedness and response activities.
+This simple project focuses on evaluating the patterns and trends in flood reporting on **MapaKalamidad.ph**, a platform designed to assist in **Disaster Risk Reduction Management (DRRM)** in the Philippines. The analysis focuses on how the platform contributes to raising flood awareness and providing timely information to affected communities.
 
 ## Problem Statement
-Flooding is one of the most common natural disasters in the Philippines, causing significant disruption to communities and infrastructure. Despite the existence of platforms like **MapaKalamidad.ph** for real-time crowd-sourced flood reporting, challenges persist in ensuring efficient data collection and analysis to support timely response and recovery efforts. This project seeks to evaluate the trends and patterns in flood reporting through **MapaKalamidad.ph** and assess how well the platform facilitates real-time information sharing during flood events.
+Flooding is one of the most common natural disasters in the Philippines, causing significant disruption to communities and infrastructure. Although platforms like **MapaKalamidad.ph** enable real-time crowd-sourced flood reporting, challenges remain in optimizing data collection and analysis to ensure timely and effective response efforts. This project seeks to evaluate the trends and patterns in flood reporting through **MapaKalamidad.ph** and assess how well the platform facilitates real-time information sharing during flood events.
 
 ## Objectives
 The main objectives of this project are to:
