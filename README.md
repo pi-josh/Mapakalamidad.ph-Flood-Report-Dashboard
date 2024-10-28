@@ -16,16 +16,16 @@
 ---
 
 ## Project Overview
-This simple project focuses on evaluating the patterns and trends in flood reporting on **MapaKalamidad.ph**, a platform designed to assist in **Disaster Risk Reduction Management (DRRM)** in the Philippines. The analysis focuses on how the platform contributes to raising flood awareness and providing timely information to affected communities.
+This project evaluates patterns and trends in flood reporting on **MapaKalamidad.ph**, a platform designed to assist in **Disaster Risk Reduction Management (DRRM)** in the Philippines. The analysis focuses on how the platform contributes to raising flood awareness and providing timely information to affected communities.
 
 ## Problem Statement
-Flooding is one of the most common natural disasters in the Philippines, causing significant disruption to communities and infrastructure. Although platforms like **MapaKalamidad.ph** enable real-time crowd-sourced flood reporting, challenges remain in optimizing data collection and analysis to ensure timely and effective response efforts. This project seeks to evaluate the trends and patterns in flood reporting through **MapaKalamidad.ph** and assess how well the platform facilitates real-time information sharing during flood events.
+Flooding is one of the most common natural disasters in the Philippines, leading to significant disruption to communities and infrastructure. While platforms like **MapaKalamidad.ph** allow for real-time crowd-sourced flood reporting, there are challenges in utilizing this data for efficient information sharing. This project aims to assess the trends and patterns in flood reporting through **MapaKalamidad.ph** and evaluate how well the platform helps raise awareness of flood incidents and share timely information with affected communities.
 
 ## Objectives
 The main objectives of this project are to:
 - **Identify** the trends in flood reports submitted through MapaKalamidad.ph.
-- **Analyze** the frequency and distribution of flood reports during the covered time period.
-- **Evaluate** the types of incidents reported and their geographical locations to assess the platform’s role in flood preparedness and response.
+- **Analyze** the frequency and distribution of **flood reports** during the covered time period.
+- **Evaluate** the **geographical locations** and **flood depths** reported to assess the platform’s role in raising flood awareness and disseminating timely flood information.
 
 ## Scope and Limitations
 
@@ -37,17 +37,17 @@ However, certain limitations may affect the analysis:
 
 ## Analytical Questions
 
-1. **What are the trends in flood reports** during the specified time period (January–February) in regions affected by floods?
-2. **How frequently are flood incidents reported** on MapaKalamidad.ph, and what types of incidents are most commonly reported?
-3. **What is the geographical distribution** of flood reports in the available data, and which regions are most impacted by floods based on the API data?
-4. **What are the patterns in response times** as indicated by the data in the system?
-5. **How does the number of reports change over time** during the flood events covered by the dataset?
+1. **What is the average and distribution of flood depths** reported on MapaKalamidad.ph during January–February?
+2. **How does flood reporting frequency change over time** during the January–February period?
+3. **Which regions reported the most flood incidents**, and what is the corresponding average flood depth for each region?
+4. **How does flood severity vary across different regions**?
+5. **What is the geographical clustering of flood reports**?
 
 ## Repository Contents
 - **Jupyter Notebook**: The notebook focuses on data wrangling and processing the MapaKalamidad.ph API dataset to prepare it for analysis and visualization.
     - [mapakalamidad-ph-data-wrangling.ipynb](./mapakalamidad-ph-data-wrangling.ipynb)
  
-- **Datasets in JSON Format**: The datasets contains the report from the API
+- **Datasets in JSON Format**: The datasets contain the report from the API.
     - [reports.json](./reports.json): contains the current reports
     - [archive.json](./archive.json): contains archival reports from January to February
     - [cleaned.json](./cleaned.json): contains the cleaned archival reports
@@ -56,22 +56,25 @@ However, certain limitations may affect the analysis:
     - [View on Kaggle](https://www.kaggle.com/code/joshuamacatunao/mapakalamidad-ph-data-wrangling)
 
 - **Tableau Project**: A dashboard showcasing insights from the data, such as flood reporting patterns and community feedback.
-    - [View Tableau Dashboard](link_to_your_tableau_project)
+    - [View Tableau Dashboard](https://public.tableau.com/app/profile/joshua.macatunao/viz/Mapakalamidad_ph-Flood-Report-Dashboard/LandingPage?publish=yes)
 
 ## API Usage
 The project utilizes **MapaKalamidad.ph's API**, which provides flood-related data in JSON format. The data from the API will be used for real-time analysis, incident reporting, and flood response evaluations. To learn more about the API and how it functions, you can visit the official documentation: [MapaKalamidad.ph API Documentation](https://mapakalamidad.ph/api-documentation).
 
 ## Dashboard Insights Overview
-*This section will provide an overview of the insights viewers can expect to find in the Tableau dashboard, including key metrics on flood reporting patterns, incident reporting frequency, and geographical distribution.* (To be updated)
+### Flood Reports Count:
+- **Insight**: Daily flood reports peaked on January 14, with **161 reports**, followed by January 15 with **34 reports**, and February 17 with **28 reports**.
+- **Regional Highlight**: The **National Capital Region (NCR)** has the highest flood report counts, particularly on January 14 and 15, indicating it may be more prone to flooding or has better reporting engagement.
+- **Notable Observation**: **Eastern Visayas** led on February 17 with **12 reports**, suggesting varying flood impacts across regions.
+
+### Flood Reports Depth:
+- **Insight**: The highest daily average flood depth was recorded on **February 13**, at **114 cm**, with significant averages of **98.04 cm** on February 10 and **93.00 cm** on January 29.
+- **Regional Focus**: The **Ilocos Region** reported an average flood depth of **93 cm**, although from only one report. Additionally, **NCR** leads in the count of severe flood reports, indicating a potential need for enhanced preparedness in that region.
 
 ## Installation
 1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/Mapakalamidad.ph-Dashboarding-Project.git
-    ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
     ```
 
 ## Contributions
