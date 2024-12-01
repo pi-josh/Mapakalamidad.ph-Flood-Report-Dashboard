@@ -54,7 +54,7 @@ However, certain limitations may affect the analysis:
     - [archive.json](./archive.json): contains archival reports from January to February
     - [cleaned.json](./cleaned.json): contains the cleaned archival reports
   
-- **Kaggle Notebook**: View the full data wrangling process hosted on Kaggle.
+- **Kaggle Notebook**: View the data wrangling process hosted on Kaggle.
     - [View on Kaggle](https://www.kaggle.com/code/joshuamacatunao/mapakalamidad-ph-data-wrangling)
 
 - **Tableau Project**: A dashboard showcasing insights from the data, such as flood reporting patterns and community feedback.
